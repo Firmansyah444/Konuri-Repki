@@ -1,0 +1,31 @@
+<html>
+<head><title>menu kiri</title>
+<base target="main"></head>
+<body bgcolor="cyan">
+    <p>Jumlah Pengunjung: <span id="visitorCount"></span></p>
+
+<script>
+  function updateVisitorCount() {
+    let count = localStorage.getItem('visitorCount') || 0;
+    count = parseInt(count) + 1;
+    localStorage.setItem('visitorCount', count);
+    document.getElementById('visitorCount').innerText = count;
+  }
+
+  updateVisitorCount();
+</script>
+
+<TABLE BORDER = "0" BGCOLOR = "WHITE" HEIGHT="35" WIDTH="125"> 
+<p><TR><TD></input><a target="main" href="Top Story.html"><Mark>Top Story</Mark></a></p></TD></TR><BR></TABLE>
+<TABLE BORDER = "0" BGCOLOR = "WHITE" HEIGHT="35" WIDTH="125"> 
+<p><TR><TD></input><a target="main" href="Honda.html"><Mark>Honda Masuk Sekolah-Sekolah Kejuruan</Mark></a></p></TD></TR><BR></TABLE>
+<TABLE BORDER = "0" BGCOLOR = "WHITE" HEIGHT="35" WIDTH="125"> 
+<p><TR><TD></input><a target="main" href="pigeot.html"><Mark>Peugeot 5008 Dipasarkan Rp 475,5 Juta</Mark></a></p></TD></TR><BR></TABLE>
+<TABLE BORDER = "0" BGCOLOR = "WHITE" HEIGHT="35" WIDTH="125"> 
+<p><TR><TD></input><a target="main" href="Toyo.html"><Mark>Toyota Pasarkan FJ Curiser untuk Konsumen Jepang</Mark></a></p></TD></TR><BR></TABLE>
+<TABLE BORDER = "0" BGCOLOR = "WHITE" HEIGHT="35" WIDTH="125"> 
+<p><TR><TD></input><a target="main" href="Ulat.html"><Mark>"Ular Kobra" Berkeliaran di Jalan Raya</Mark></a></p></TD></TR><BR></TABLE>
+</var>
+</TABLE>
+</body>
+</html>
